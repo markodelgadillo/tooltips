@@ -10,3 +10,28 @@
   height: 20px;
   margin: 20px 0;
 }
+
+#top:hover::after {
+  content: attr(data-tip);
+  position: relative;
+  top: -60px;
+}
+
+#left:hover::after {
+  content: attr(data-tip);
+  position: relative;
+  left: -50px;
+}
+
+#right:hover::after {
+  content: attr(data-tip);
+  position: relative;
+  right: -20px;
+}
+
+#bottom:hover::after {
+  content: attr(data-tip);
+  position: relative;
+  bottom: -20px;
+  left: -50px;
+}

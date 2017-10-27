@@ -18,9 +18,7 @@
   right: 10px;
 }
 
-#top-right:hover::after {
-  width: 200px;
-  height: 150px;
+.top-right:hover::after {
   content: attr(data-tip);
   position: relative;
   top: 60px;
@@ -34,7 +32,7 @@
   left: 10px;
 }
 
-#top-left:hover::after {
+.top-left:hover::after {
   content: attr(data-tip);
   position: relative;
   left: 60px;
@@ -48,9 +46,7 @@
   right: 10px;
 }
 
-#bottom-right:hover::after {
-  width: auto;
-  height: auto;
+.bottom-right:hover::after {
   content: attr(data-tip);
   position: relative;
   right: 60px;
@@ -64,7 +60,7 @@
   left: 10px;
 }
 
-#bottom-left:hover::after {
+.bottom-left:hover::after {
   content: attr(data-tip);
   position: relative;
   bottom: 100px;

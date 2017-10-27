@@ -13,7 +13,7 @@ const seed = (module.exports = MongoClient.connect(
 
     tooltip.insertMany([
       {
-        id: 'tooltip',
+        id: '1',
         content: 'This is a tooltip.'
       }
     ])

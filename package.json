@@ -1,0 +1,29 @@
+{
+  "name": "tooltips",
+  "version": "1.0.0",
+  "description": "The user can view the tool tip from hovering over a button.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markodelgadillo/tooltips.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markodelgadillo/tooltips/issues"
+  },
+  "homepage": "https://github.com/markodelgadillo/tooltips#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

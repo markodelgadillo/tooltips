@@ -1,8 +1,6 @@
 const { MongoClient } = require('mongodb')
 const express = require('express')
-const seed = require('./seed.js')
 const app = express()
-const path = require('path')
 app.use(express.static('./public'))
 
 MongoClient.connect('mongodb://localhost/library', function(err, db) {

@@ -3,10 +3,11 @@ The user can view the tool tip from hovering over a button.
 
 # Usage
 
-* $ npm install
-* $ mongodb
-* $ express
-* $ nodemon -dev
+``` $ npm install
+ $ mongodb
+ $ express
+ $ nodemon -dev
+ ```
 
 
 # Technologies

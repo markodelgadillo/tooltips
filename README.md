@@ -9,7 +9,7 @@ The user can view the tool tip from hovering over a button.
 * $ nodemon -dev
 
 
-# Uses
+# Technologies
 
 * HTML 5
 * CSS 3
@@ -18,6 +18,8 @@ The user can view the tool tip from hovering over a button.
 * Express
 * node.js
 * nodemon
+
+# Uses
 
 * Execute `npm run watch` in the terminal for the index.js file to host it in the localhost:9999, then use `localhost:9999` as the web address on the browser.
 

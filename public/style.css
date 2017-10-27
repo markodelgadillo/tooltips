@@ -1,14 +1,47 @@
 .container {
+  background-color: lightblue;
   position: absolute;
   height: 100vh;
   width: 100vw;
 }
 
 .button {
-  background-color: lightgray;
+  background-color: orange;
   width: 50px;
   height: 20px;
   margin: 20px 0;
+}
+
+.top-right:hover::after {
+  background-color: pink;
+  content: attr(data-tip);
+  position: relative;
+  top: 60px;
+  right: 100px;
+}
+
+.top-left:hover::after {
+  background-color: pink;
+  content: attr(data-tip);
+  position: relative;
+  left: 60px;
+  top: 100px;
+}
+
+.bottom-right:hover::after {
+  background-color: pink;
+  content: attr(data-tip);
+  position: relative;
+  right: 60px;
+  bottom: 100px;
+}
+
+.bottom-left:hover::after {
+  background-color: pink;
+  content: attr(data-tip);
+  position: relative;
+  bottom: 100px;
+  left: 60px;
 }
 
 #top-right {
@@ -18,25 +51,11 @@
   right: 10px;
 }
 
-.top-right:hover::after {
-  content: attr(data-tip);
-  position: relative;
-  top: 60px;
-  right: 100px;
-}
-
 #top-left {
   width: 100px;
   position: absolute;
   top: 10px;
   left: 10px;
-}
-
-.top-left:hover::after {
-  content: attr(data-tip);
-  position: relative;
-  left: 60px;
-  top: 100px;
 }
 
 #bottom-right {
@@ -46,23 +65,9 @@
   right: 10px;
 }
 
-.bottom-right:hover::after {
-  content: attr(data-tip);
-  position: relative;
-  right: 60px;
-  bottom: 100px;
-}
-
 #bottom-left {
   width: 120px;
   position: absolute;
   bottom: 10px;
   left: 10px;
-}
-
-.bottom-left:hover::after {
-  content: attr(data-tip);
-  position: relative;
-  bottom: 100px;
-  left: 60px;
 }

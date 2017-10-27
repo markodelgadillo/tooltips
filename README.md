@@ -3,6 +3,24 @@ The user can view the tool tip from hovering over a button.
 
 # Usage
 
+* $ npm install
+* $ mongodb
+* $ express
+* $ nodemon -dev
+
+
+# Uses
+
+* HTML 5
+* CSS 3
+* ECMAscript 2015
+* MongoDb
+* Express
+* node.js
+* nodemon
+
+* Execute `npm run watch` in the terminal for the index.js file to host it in the localhost:9999, then use `localhost:9999` as the web address on the browser.
+
 
 # Screencapture
 
